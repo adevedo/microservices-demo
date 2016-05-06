@@ -1,0 +1,851 @@
+2016-05-06 14:16:53,640 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'context.listener.classes' in [bootstrap]
+2016-05-06 14:16:53,646 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'context.listener.classes' in [commandLineArgs]
+2016-05-06 14:16:53,646 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'context.listener.classes' in [servletConfigInitParams]
+2016-05-06 14:16:53,647 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'context.listener.classes' in [servletContextInitParams]
+2016-05-06 14:16:53,648 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'context.listener.classes' in [systemProperties]
+2016-05-06 14:16:53,648 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'context.listener.classes' in [systemEnvironment]
+2016-05-06 14:16:53,648 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'context.listener.classes' in [random]
+2016-05-06 14:16:53,649 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'context.listener.classes' in [applicationConfigurationProperties]
+2016-05-06 14:16:53,649 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'context.listener.classes' in [defaultProperties]
+2016-05-06 14:16:53,649 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'context.listener.classes' in [springCloudClientHostInfo]
+2016-05-06 14:16:53,650 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'context.listener.classes' in any property source. Returning [null]
+2016-05-06 14:16:53,710 DEBUG [main] o.s.c.e.StandardEnvironment [MutablePropertySources.java:109] Adding [systemProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:53,711 DEBUG [main] o.s.c.e.StandardEnvironment [MutablePropertySources.java:109] Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-05-06 14:16:53,711 DEBUG [main] o.s.c.e.StandardEnvironment [AbstractEnvironment.java:127] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-05-06 14:16:53,742 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:244] JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2016-05-06 14:16:53,744 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:252] JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2016-05-06 14:16:53,746 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'context.initializer.classes' in [bootstrap]
+2016-05-06 14:16:53,747 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'context.initializer.classes' in [commandLineArgs]
+2016-05-06 14:16:53,747 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'context.initializer.classes' in [servletConfigInitParams]
+2016-05-06 14:16:53,748 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'context.initializer.classes' in [servletContextInitParams]
+2016-05-06 14:16:53,748 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'context.initializer.classes' in [systemProperties]
+2016-05-06 14:16:53,749 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'context.initializer.classes' in [systemEnvironment]
+2016-05-06 14:16:53,749 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'context.initializer.classes' in [random]
+2016-05-06 14:16:53,750 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'context.initializer.classes' in [applicationConfigurationProperties]
+2016-05-06 14:16:53,750 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'context.initializer.classes' in [defaultProperties]
+2016-05-06 14:16:53,751 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'context.initializer.classes' in [springCloudClientHostInfo]
+2016-05-06 14:16:53,751 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'context.initializer.classes' in any property source. Returning [null]
+2016-05-06 14:16:53,752 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.config.name:application' in [bootstrap]
+2016-05-06 14:16:53,753 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.config.name:application' in [commandLineArgs]
+2016-05-06 14:16:53,753 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.config.name:application' in [servletConfigInitParams]
+2016-05-06 14:16:53,753 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.config.name:application' in [servletContextInitParams]
+2016-05-06 14:16:53,754 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.config.name:application' in [systemProperties]
+2016-05-06 14:16:53,754 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.config.name:application' in [systemEnvironment]
+2016-05-06 14:16:53,754 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.config.name:application' in [random]
+2016-05-06 14:16:53,755 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.config.name:application' in [applicationConfigurationProperties]
+2016-05-06 14:16:53,755 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.config.name:application' in [defaultProperties]
+2016-05-06 14:16:53,755 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.config.name:application' in [springCloudClientHostInfo]
+2016-05-06 14:16:53,755 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'spring.config.name:application' in any property source. Returning [null]
+2016-05-06 14:16:53,756 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.config.name' in [bootstrap]
+2016-05-06 14:16:53,756 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:90] Found key 'spring.config.name' in [bootstrap] with type [String] and value 'bootstrap'
+2016-05-06 14:16:53,756 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.name:bootstrap' in [bootstrap]
+2016-05-06 14:16:53,757 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.name:bootstrap' in [commandLineArgs]
+2016-05-06 14:16:53,757 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.name:bootstrap' in [servletConfigInitParams]
+2016-05-06 14:16:53,757 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.name:bootstrap' in [servletContextInitParams]
+2016-05-06 14:16:53,758 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.name:bootstrap' in [systemProperties]
+2016-05-06 14:16:53,758 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.name:bootstrap' in [systemEnvironment]
+2016-05-06 14:16:53,758 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.name:bootstrap' in [random]
+2016-05-06 14:16:53,759 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.name:bootstrap' in [applicationConfigurationProperties]
+2016-05-06 14:16:53,759 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.name:bootstrap' in [defaultProperties]
+2016-05-06 14:16:53,759 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.name:bootstrap' in [springCloudClientHostInfo]
+2016-05-06 14:16:53,760 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'vcap.application.name:bootstrap' in any property source. Returning [null]
+2016-05-06 14:16:53,760 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.name' in [bootstrap]
+2016-05-06 14:16:53,761 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.name' in [commandLineArgs]
+2016-05-06 14:16:53,761 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.name' in [servletConfigInitParams]
+2016-05-06 14:16:53,762 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.name' in [servletContextInitParams]
+2016-05-06 14:16:53,762 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.name' in [systemProperties]
+2016-05-06 14:16:53,762 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.name' in [systemEnvironment]
+2016-05-06 14:16:53,762 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.name' in [random]
+2016-05-06 14:16:53,763 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.name' in [applicationConfigurationProperties]
+2016-05-06 14:16:53,763 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.name' in [defaultProperties]
+2016-05-06 14:16:53,763 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.name' in [springCloudClientHostInfo]
+2016-05-06 14:16:53,764 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'vcap.application.name' in any property source. Returning [null]
+2016-05-06 14:16:53,764 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.name:bootstrap' in [bootstrap]
+2016-05-06 14:16:53,764 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.name:bootstrap' in [commandLineArgs]
+2016-05-06 14:16:53,765 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.name:bootstrap' in [servletConfigInitParams]
+2016-05-06 14:16:53,765 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.name:bootstrap' in [servletContextInitParams]
+2016-05-06 14:16:53,765 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.name:bootstrap' in [systemProperties]
+2016-05-06 14:16:53,766 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.name:bootstrap' in [systemEnvironment]
+2016-05-06 14:16:53,766 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.name:bootstrap' in [random]
+2016-05-06 14:16:53,766 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.name:bootstrap' in [applicationConfigurationProperties]
+2016-05-06 14:16:53,766 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.name:bootstrap' in [defaultProperties]
+2016-05-06 14:16:53,767 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.name:bootstrap' in [springCloudClientHostInfo]
+2016-05-06 14:16:53,767 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'spring.application.name:bootstrap' in any property source. Returning [null]
+2016-05-06 14:16:53,767 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.name' in [bootstrap]
+2016-05-06 14:16:53,768 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.name' in [commandLineArgs]
+2016-05-06 14:16:53,768 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.name' in [servletConfigInitParams]
+2016-05-06 14:16:53,768 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.name' in [servletContextInitParams]
+2016-05-06 14:16:53,768 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.name' in [systemProperties]
+2016-05-06 14:16:53,769 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.name' in [systemEnvironment]
+2016-05-06 14:16:53,769 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.name' in [random]
+2016-05-06 14:16:53,769 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.name' in [applicationConfigurationProperties]
+2016-05-06 14:16:53,770 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.name' in [defaultProperties]
+2016-05-06 14:16:53,770 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:90] Found key 'spring.application.name' in [defaultProperties] with type [String] and value 'bootstrap'
+2016-05-06 14:16:53,771 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'PORT:null' in [bootstrap]
+2016-05-06 14:16:53,771 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'PORT:null' in [commandLineArgs]
+2016-05-06 14:16:53,771 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'PORT:null' in [servletConfigInitParams]
+2016-05-06 14:16:53,771 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'PORT:null' in [servletContextInitParams]
+2016-05-06 14:16:53,772 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'PORT:null' in [systemProperties]
+2016-05-06 14:16:53,772 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'PORT:null' in [systemEnvironment]
+2016-05-06 14:16:53,772 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'PORT:null' in [random]
+2016-05-06 14:16:53,773 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'PORT:null' in [applicationConfigurationProperties]
+2016-05-06 14:16:53,773 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'PORT:null' in [defaultProperties]
+2016-05-06 14:16:53,773 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'PORT:null' in [springCloudClientHostInfo]
+2016-05-06 14:16:53,773 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'PORT:null' in any property source. Returning [null]
+2016-05-06 14:16:53,774 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'PORT' in [bootstrap]
+2016-05-06 14:16:53,774 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'PORT' in [commandLineArgs]
+2016-05-06 14:16:53,774 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'PORT' in [servletConfigInitParams]
+2016-05-06 14:16:53,775 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'PORT' in [servletContextInitParams]
+2016-05-06 14:16:53,775 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'PORT' in [systemProperties]
+2016-05-06 14:16:53,775 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'PORT' in [systemEnvironment]
+2016-05-06 14:16:53,775 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'PORT' in [random]
+2016-05-06 14:16:53,776 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'PORT' in [applicationConfigurationProperties]
+2016-05-06 14:16:53,776 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'PORT' in [defaultProperties]
+2016-05-06 14:16:53,776 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'PORT' in [springCloudClientHostInfo]
+2016-05-06 14:16:53,777 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'PORT' in any property source. Returning [null]
+2016-05-06 14:16:53,777 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'server.port:null' in [bootstrap]
+2016-05-06 14:16:53,777 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'server.port:null' in [commandLineArgs]
+2016-05-06 14:16:53,777 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'server.port:null' in [servletConfigInitParams]
+2016-05-06 14:16:53,778 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'server.port:null' in [servletContextInitParams]
+2016-05-06 14:16:53,778 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'server.port:null' in [systemProperties]
+2016-05-06 14:16:53,778 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'server.port:null' in [systemEnvironment]
+2016-05-06 14:16:53,779 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'server.port:null' in [random]
+2016-05-06 14:16:53,779 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'server.port:null' in [applicationConfigurationProperties]
+2016-05-06 14:16:53,779 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'server.port:null' in [defaultProperties]
+2016-05-06 14:16:53,780 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'server.port:null' in [springCloudClientHostInfo]
+2016-05-06 14:16:53,780 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'server.port:null' in any property source. Returning [null]
+2016-05-06 14:16:53,780 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'server.port' in [bootstrap]
+2016-05-06 14:16:53,781 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'server.port' in [commandLineArgs]
+2016-05-06 14:16:53,781 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'server.port' in [servletConfigInitParams]
+2016-05-06 14:16:53,782 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'server.port' in [servletContextInitParams]
+2016-05-06 14:16:53,782 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'server.port' in [systemProperties]
+2016-05-06 14:16:53,782 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'server.port' in [systemEnvironment]
+2016-05-06 14:16:53,783 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'server.port' in [random]
+2016-05-06 14:16:53,783 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'server.port' in [applicationConfigurationProperties]
+2016-05-06 14:16:53,783 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'server.port' in [defaultProperties]
+2016-05-06 14:16:53,784 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'server.port' in [springCloudClientHostInfo]
+2016-05-06 14:16:53,784 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'server.port' in any property source. Returning [null]
+2016-05-06 14:16:53,784 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.index:null' in [bootstrap]
+2016-05-06 14:16:53,785 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.index:null' in [commandLineArgs]
+2016-05-06 14:16:53,785 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.index:null' in [servletConfigInitParams]
+2016-05-06 14:16:53,785 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.index:null' in [servletContextInitParams]
+2016-05-06 14:16:53,786 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.index:null' in [systemProperties]
+2016-05-06 14:16:53,786 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.index:null' in [systemEnvironment]
+2016-05-06 14:16:53,786 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.index:null' in [random]
+2016-05-06 14:16:53,787 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.index:null' in [applicationConfigurationProperties]
+2016-05-06 14:16:53,787 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.index:null' in [defaultProperties]
+2016-05-06 14:16:53,787 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.index:null' in [springCloudClientHostInfo]
+2016-05-06 14:16:53,787 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'spring.application.index:null' in any property source. Returning [null]
+2016-05-06 14:16:53,788 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.index' in [bootstrap]
+2016-05-06 14:16:53,788 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.index' in [commandLineArgs]
+2016-05-06 14:16:53,788 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.index' in [servletConfigInitParams]
+2016-05-06 14:16:53,789 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.index' in [servletContextInitParams]
+2016-05-06 14:16:53,789 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.index' in [systemProperties]
+2016-05-06 14:16:53,789 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.index' in [systemEnvironment]
+2016-05-06 14:16:53,789 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.index' in [random]
+2016-05-06 14:16:53,790 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.index' in [applicationConfigurationProperties]
+2016-05-06 14:16:53,790 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.index' in [defaultProperties]
+2016-05-06 14:16:53,790 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.index' in [springCloudClientHostInfo]
+2016-05-06 14:16:53,791 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'spring.application.index' in any property source. Returning [null]
+2016-05-06 14:16:53,791 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.instance_index:null' in [bootstrap]
+2016-05-06 14:16:53,791 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.instance_index:null' in [commandLineArgs]
+2016-05-06 14:16:53,791 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.instance_index:null' in [servletConfigInitParams]
+2016-05-06 14:16:53,792 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.instance_index:null' in [servletContextInitParams]
+2016-05-06 14:16:53,792 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.instance_index:null' in [systemProperties]
+2016-05-06 14:16:53,792 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.instance_index:null' in [systemEnvironment]
+2016-05-06 14:16:53,792 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.instance_index:null' in [random]
+2016-05-06 14:16:53,793 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.instance_index:null' in [applicationConfigurationProperties]
+2016-05-06 14:16:53,793 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.instance_index:null' in [defaultProperties]
+2016-05-06 14:16:53,793 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.instance_index:null' in [springCloudClientHostInfo]
+2016-05-06 14:16:53,793 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'vcap.application.instance_index:null' in any property source. Returning [null]
+2016-05-06 14:16:53,794 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.instance_index' in [bootstrap]
+2016-05-06 14:16:53,794 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.instance_index' in [commandLineArgs]
+2016-05-06 14:16:53,794 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.instance_index' in [servletConfigInitParams]
+2016-05-06 14:16:53,794 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.instance_index' in [servletContextInitParams]
+2016-05-06 14:16:53,795 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.instance_index' in [systemProperties]
+2016-05-06 14:16:53,795 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.instance_index' in [systemEnvironment]
+2016-05-06 14:16:53,795 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.instance_index' in [random]
+2016-05-06 14:16:53,796 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.instance_index' in [applicationConfigurationProperties]
+2016-05-06 14:16:53,796 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.instance_index' in [defaultProperties]
+2016-05-06 14:16:53,796 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'vcap.application.instance_index' in [springCloudClientHostInfo]
+2016-05-06 14:16:53,796 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'vcap.application.instance_index' in any property source. Returning [null]
+2016-05-06 14:16:53,797 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.active' in [bootstrap]
+2016-05-06 14:16:53,797 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.active' in [commandLineArgs]
+2016-05-06 14:16:53,797 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.active' in [servletConfigInitParams]
+2016-05-06 14:16:53,797 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.active' in [servletContextInitParams]
+2016-05-06 14:16:53,797 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.active' in [systemProperties]
+2016-05-06 14:16:53,798 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.active' in [systemEnvironment]
+2016-05-06 14:16:53,798 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.active' in [random]
+2016-05-06 14:16:53,798 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.active' in [applicationConfigurationProperties]
+2016-05-06 14:16:53,799 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.active' in [defaultProperties]
+2016-05-06 14:16:53,799 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.active' in [springCloudClientHostInfo]
+2016-05-06 14:16:53,799 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'spring.profiles.active' in any property source. Returning [null]
+2016-05-06 14:16:53,804 DEBUG [main] o.s.b.SpringApplication [SpringApplication.java:694] Loading source class org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration,class org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration,class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration,class org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration
+2016-05-06 14:16:53,819 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:244] JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2016-05-06 14:16:53,819 DEBUG [main] o.s.c.a.ClassPathBeanDefinitionScanner [ClassPathScanningCandidateComponentProvider.java:252] JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2016-05-06 14:16:53,850 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'autoConfigurationReport'
+2016-05-06 14:16:53,870 INFO [main] o.s.c.a.AnnotationConfigApplicationContext [AbstractApplicationContext.java:578] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@55b699ef: startup date [Fri May 06 14:16:53 GST 2016]; root of context hierarchy
+2016-05-06 14:16:53,872 DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext [AbstractApplicationContext.java:612] Bean factory for org.springframework.context.annotation.AnnotationConfigApplicationContext@55b699ef: org.springframework.beans.factory.support.DefaultListableBeanFactory@68567e20: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,propertySourceBootstrapConfiguration,encryptionBootstrapConfiguration,configurationPropertiesRebinderAutoConfiguration,propertyPlaceholderAutoConfiguration]; root of factory hierarchy
+2016-05-06 14:16:53,887 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-05-06 14:16:53,888 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-05-06 14:16:53,897 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2016-05-06 14:16:53,900 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-05-06 14:16:53,953 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'autoConfigurationReport'
+2016-05-06 14:16:53,968 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'autoConfigurationReport'
+2016-05-06 14:16:53,968 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'encrypt.keyStore.location' in [bootstrap]
+2016-05-06 14:16:53,968 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'encrypt.keyStore.location' in [commandLineArgs]
+2016-05-06 14:16:53,969 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'encrypt.keyStore.location' in [servletConfigInitParams]
+2016-05-06 14:16:53,969 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'encrypt.keyStore.location' in [servletContextInitParams]
+2016-05-06 14:16:53,969 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'encrypt.keyStore.location' in [systemProperties]
+2016-05-06 14:16:53,970 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'encrypt.keyStore.location' in [systemEnvironment]
+2016-05-06 14:16:53,970 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'encrypt.keyStore.location' in [random]
+2016-05-06 14:16:53,970 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'encrypt.keyStore.location' in [applicationConfigurationProperties]
+2016-05-06 14:16:53,971 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'encrypt.keyStore.location' in [defaultProperties]
+2016-05-06 14:16:53,971 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'encrypt.keyStore.location' in [springCloudClientHostInfo]
+2016-05-06 14:16:53,971 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'encrypt.keyStore.location' in any property source. Returning [null]
+2016-05-06 14:16:53,972 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'encrypt.key' in [bootstrap]
+2016-05-06 14:16:53,972 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'encrypt.key' in [commandLineArgs]
+2016-05-06 14:16:53,972 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'encrypt.key' in [servletConfigInitParams]
+2016-05-06 14:16:53,972 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'encrypt.key' in [servletContextInitParams]
+2016-05-06 14:16:53,973 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'encrypt.key' in [systemProperties]
+2016-05-06 14:16:53,973 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'encrypt.key' in [systemEnvironment]
+2016-05-06 14:16:53,973 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'encrypt.key' in [random]
+2016-05-06 14:16:53,974 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'encrypt.key' in [applicationConfigurationProperties]
+2016-05-06 14:16:53,974 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'encrypt.key' in [defaultProperties]
+2016-05-06 14:16:53,974 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'encrypt.key' in [springCloudClientHostInfo]
+2016-05-06 14:16:53,975 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'encrypt.key' in any property source. Returning [null]
+2016-05-06 14:16:53,975 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'autoConfigurationReport'
+2016-05-06 14:16:53,978 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'autoConfigurationReport'
+2016-05-06 14:16:54,015 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'autoConfigurationReport'
+2016-05-06 14:16:54,018 DEBUG [main] o.s.c.a.ConfigurationClassBeanDefinitionReader [ConfigurationClassBeanDefinitionReader.java:256] Registering bean definition for @Bean method org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration.environmentDecryptApplicationListener()
+2016-05-06 14:16:54,024 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+2016-05-06 14:16:54,024 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+2016-05-06 14:16:54,040 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry' to allow for resolving potential circular references
+2016-05-06 14:16:54,041 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+2016-05-06 14:16:54,044 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'autoConfigurationReport'
+2016-05-06 14:16:54,046 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+2016-05-06 14:16:54,047 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'autoConfigurationReport'
+2016-05-06 14:16:54,048 DEBUG [main] o.s.c.a.ConfigurationClassBeanDefinitionReader [ConfigurationClassBeanDefinitionReader.java:256] Registering bean definition for @Bean method org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration.configurationPropertiesBeans()
+2016-05-06 14:16:54,050 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+2016-05-06 14:16:54,050 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'autoConfigurationReport'
+2016-05-06 14:16:54,052 DEBUG [main] o.s.c.a.ConfigurationClassBeanDefinitionReader [ConfigurationClassBeanDefinitionReader.java:256] Registering bean definition for @Bean method org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration.configurationPropertiesRebinder()
+2016-05-06 14:16:54,053 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+2016-05-06 14:16:54,054 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'autoConfigurationReport'
+2016-05-06 14:16:54,055 DEBUG [main] o.s.c.a.ConfigurationClassBeanDefinitionReader [ConfigurationClassBeanDefinitionReader.java:256] Registering bean definition for @Bean method org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer()
+2016-05-06 14:16:54,195 DEBUG [main] o.s.c.a.ConfigurationClassEnhancer [ConfigurationClassEnhancer.java:109] Successfully enhanced org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration; enhanced class name is: org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration$$EnhancerBySpringCGLIB$$6b500022
+2016-05-06 14:16:54,196 DEBUG [main] o.s.c.a.ConfigurationClassPostProcessor [ConfigurationClassPostProcessor.java:403] Replacing bean definition 'propertySourceBootstrapConfiguration' existing class 'org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration' with enhanced class 'org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration$$EnhancerBySpringCGLIB$$6b500022'
+2016-05-06 14:16:54,200 DEBUG [main] o.s.c.a.ConfigurationClassEnhancer [ConfigurationClassEnhancer.java:109] Successfully enhanced org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration; enhanced class name is: org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$$EnhancerBySpringCGLIB$$f07ea512
+2016-05-06 14:16:54,200 DEBUG [main] o.s.c.a.ConfigurationClassPostProcessor [ConfigurationClassPostProcessor.java:403] Replacing bean definition 'encryptionBootstrapConfiguration' existing class 'org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration' with enhanced class 'org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$$EnhancerBySpringCGLIB$$f07ea512'
+2016-05-06 14:16:54,205 DEBUG [main] o.s.c.a.ConfigurationClassEnhancer [ConfigurationClassEnhancer.java:109] Successfully enhanced org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration; enhanced class name is: org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e38be236
+2016-05-06 14:16:54,205 DEBUG [main] o.s.c.a.ConfigurationClassPostProcessor [ConfigurationClassPostProcessor.java:403] Replacing bean definition 'configurationPropertiesRebinderAutoConfiguration' existing class 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' with enhanced class 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e38be236'
+2016-05-06 14:16:54,208 DEBUG [main] o.s.c.a.ConfigurationClassEnhancer [ConfigurationClassEnhancer.java:109] Successfully enhanced org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration; enhanced class name is: org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration$$EnhancerBySpringCGLIB$$80ab9c13
+2016-05-06 14:16:54,209 DEBUG [main] o.s.c.a.ConfigurationClassPostProcessor [ConfigurationClassPostProcessor.java:403] Replacing bean definition 'propertyPlaceholderAutoConfiguration' existing class 'org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration' with enhanced class 'org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration$$EnhancerBySpringCGLIB$$80ab9c13'
+2016-05-06 14:16:54,209 DEBUG [main] o.s.c.a.ConfigurationClassEnhancer [ConfigurationClassEnhancer.java:109] Successfully enhanced org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration; enhanced class name is: org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration$$EnhancerBySpringCGLIB$$80ab9c13
+2016-05-06 14:16:54,209 DEBUG [main] o.s.c.a.ConfigurationClassPostProcessor [ConfigurationClassPostProcessor.java:403] Replacing bean definition 'propertySourcesPlaceholderConfigurer' existing class 'org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration' with enhanced class 'org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration$$EnhancerBySpringCGLIB$$80ab9c13'
+2016-05-06 14:16:54,210 DEBUG [main] o.s.c.e.StandardEnvironment [MutablePropertySources.java:159] Removing [applicationConfigurationProperties] PropertySource
+2016-05-06 14:16:54,210 DEBUG [main] o.s.c.e.StandardEnvironment [MutablePropertySources.java:159] Removing [defaultProperties] PropertySource
+2016-05-06 14:16:54,210 DEBUG [main] o.s.c.e.StandardEnvironment [MutablePropertySources.java:109] Adding [defaultProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,211 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2016-05-06 14:16:54,211 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'propertySourcesPlaceholderConfigurer'
+2016-05-06 14:16:54,214 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'propertySourcesPlaceholderConfigurer' to allow for resolving potential circular references
+2016-05-06 14:16:54,215 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'propertySourcesPlaceholderConfigurer'
+2016-05-06 14:16:54,215 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [environmentProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,216 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [localProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,219 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store'
+2016-05-06 14:16:54,219 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store'
+2016-05-06 14:16:54,220 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store' to allow for resolving potential circular references
+2016-05-06 14:16:54,220 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store'
+2016-05-06 14:16:54,223 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-05-06 14:16:54,224 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-05-06 14:16:54,224 INFO [main] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor [AutowiredAnnotationBeanPostProcessor.java:153] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-05-06 14:16:54,225 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2016-05-06 14:16:54,225 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-05-06 14:16:54,225 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-05-06 14:16:54,225 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-05-06 14:16:54,226 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2016-05-06 14:16:54,226 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-05-06 14:16:54,227 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-05-06 14:16:54,227 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-05-06 14:16:54,231 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2016-05-06 14:16:54,231 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-05-06 14:16:54,231 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-05-06 14:16:54,232 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-05-06 14:16:54,232 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2016-05-06 14:16:54,232 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-05-06 14:16:54,233 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-05-06 14:16:54,233 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-05-06 14:16:54,233 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2016-05-06 14:16:54,233 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-05-06 14:16:54,234 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2016-05-06 14:16:54,234 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2016-05-06 14:16:54,235 DEBUG [main] o.s.c.e.StandardEnvironment [MutablePropertySources.java:109] Adding [systemProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,235 DEBUG [main] o.s.c.e.StandardEnvironment [MutablePropertySources.java:109] Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-05-06 14:16:54,236 DEBUG [main] o.s.c.e.StandardEnvironment [AbstractEnvironment.java:127] Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2016-05-06 14:16:54,236 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor' to allow for resolving potential circular references
+2016-05-06 14:16:54,236 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store'
+2016-05-06 14:16:54,244 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:1620] Invoking afterPropertiesSet() on bean with name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2016-05-06 14:16:54,245 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2016-05-06 14:16:54,247 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2016-05-06 14:16:54,247 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'configurationPropertiesBeans'
+2016-05-06 14:16:54,248 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'configurationPropertiesBeans'
+2016-05-06 14:16:54,248 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'configurationPropertiesRebinderAutoConfiguration'
+2016-05-06 14:16:54,248 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'configurationPropertiesRebinderAutoConfiguration'
+2016-05-06 14:16:54,256 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'configurationPropertiesRebinderAutoConfiguration' to allow for resolving potential circular references
+2016-05-06 14:16:54,261 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:328] Bean 'configurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e38be236] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-05-06 14:16:54,261 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'configurationPropertiesRebinderAutoConfiguration'
+2016-05-06 14:16:54,282 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store'
+2016-05-06 14:16:54,283 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'configurationPropertiesBeans' to allow for resolving potential circular references
+2016-05-06 14:16:54,286 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'configurationPropertiesBeans'
+2016-05-06 14:16:54,289 DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext [AbstractApplicationContext.java:718] Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@491b9b8]
+2016-05-06 14:16:54,290 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'applicationEventMulticaster'
+2016-05-06 14:16:54,290 DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext [AbstractApplicationContext.java:735] Using ApplicationEventMulticaster [org.springframework.context.event.SimpleApplicationEventMulticaster@1a4927d6]
+2016-05-06 14:16:54,292 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultListableBeanFactory.java:741] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@68567e20: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,propertySourceBootstrapConfiguration,encryptionBootstrapConfiguration,configurationPropertiesRebinderAutoConfiguration,propertyPlaceholderAutoConfiguration,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,spring.cloud.config.CONFIGURATION_PROPERTIES,org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor,org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store,environmentDecryptApplicationListener,encrypt.CONFIGURATION_PROPERTIES,org.springframework.boot.autoconfigure.condition.BeanTypeRegistry,configurationPropertiesBeans,configurationPropertiesRebinder,propertySourcesPlaceholderConfigurer]; root of factory hierarchy
+2016-05-06 14:16:54,292 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2016-05-06 14:16:54,292 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2016-05-06 14:16:54,292 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2016-05-06 14:16:54,293 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2016-05-06 14:16:54,293 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-05-06 14:16:54,293 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-05-06 14:16:54,295 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+2016-05-06 14:16:54,297 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+2016-05-06 14:16:54,297 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-05-06 14:16:54,298 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-05-06 14:16:54,298 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+2016-05-06 14:16:54,300 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-05-06 14:16:54,301 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'propertySourceBootstrapConfiguration'
+2016-05-06 14:16:54,301 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'propertySourceBootstrapConfiguration'
+2016-05-06 14:16:54,304 DEBUG [main] o.s.b.f.a.InjectionMetadata [InjectionMetadata.java:72] Registered injected element on class [org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration$$EnhancerBySpringCGLIB$$6b500022]: AutowiredFieldElement for private java.util.List org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration.propertySourceLocators
+2016-05-06 14:16:54,304 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'propertySourceBootstrapConfiguration' to allow for resolving potential circular references
+2016-05-06 14:16:54,308 DEBUG [main] o.s.b.f.a.InjectionMetadata [InjectionMetadata.java:86] Processing injected element of bean 'propertySourceBootstrapConfiguration': AutowiredFieldElement for private java.util.List org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration.propertySourceLocators
+2016-05-06 14:16:54,315 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'propertySourceBootstrapConfiguration'
+2016-05-06 14:16:54,316 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'encryptionBootstrapConfiguration'
+2016-05-06 14:16:54,316 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'encryptionBootstrapConfiguration'
+2016-05-06 14:16:54,317 DEBUG [main] o.s.b.f.a.InjectionMetadata [InjectionMetadata.java:72] Registered injected element on class [org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$$EnhancerBySpringCGLIB$$f07ea512]: AutowiredFieldElement for private org.springframework.security.crypto.encrypt.TextEncryptor org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration.encryptor
+2016-05-06 14:16:54,317 DEBUG [main] o.s.b.f.a.InjectionMetadata [InjectionMetadata.java:72] Registered injected element on class [org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration$$EnhancerBySpringCGLIB$$f07ea512]: AutowiredFieldElement for private org.springframework.cloud.bootstrap.encrypt.KeyProperties org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration.key
+2016-05-06 14:16:54,318 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'encryptionBootstrapConfiguration' to allow for resolving potential circular references
+2016-05-06 14:16:54,321 DEBUG [main] o.s.b.f.a.InjectionMetadata [InjectionMetadata.java:86] Processing injected element of bean 'encryptionBootstrapConfiguration': AutowiredFieldElement for private org.springframework.security.crypto.encrypt.TextEncryptor org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration.encryptor
+2016-05-06 14:16:54,321 DEBUG [main] o.s.b.f.a.InjectionMetadata [InjectionMetadata.java:86] Processing injected element of bean 'encryptionBootstrapConfiguration': AutowiredFieldElement for private org.springframework.cloud.bootstrap.encrypt.KeyProperties org.springframework.cloud.bootstrap.encrypt.EncryptionBootstrapConfiguration.key
+2016-05-06 14:16:54,322 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'encrypt.CONFIGURATION_PROPERTIES'
+2016-05-06 14:16:54,323 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'encrypt.CONFIGURATION_PROPERTIES'
+2016-05-06 14:16:54,324 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'encrypt.CONFIGURATION_PROPERTIES' to allow for resolving potential circular references
+2016-05-06 14:16:54,333 DEBUG [main] o.h.v.i.e.r.DefaultTraversableResolver [DefaultTraversableResolver.java:70] Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2016-05-06 14:16:54,337 DEBUG [main] o.h.v.i.e.ConfigurationImpl [ConfigurationImpl.java:156] Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2016-05-06 14:16:54,338 DEBUG [main] o.h.v.i.e.ConfigurationImpl [ConfigurationImpl.java:178] Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2016-05-06 14:16:54,340 DEBUG [main] o.h.v.i.e.ConfigurationImpl [ConfigurationImpl.java:192] Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy26
+2016-05-06 14:16:54,342 DEBUG [main] o.h.v.i.x.ValidationXmlParser [ValidationXmlParser.java:91] Trying to load META-INF/validation.xml for XML based Validator configuration.
+2016-05-06 14:16:54,344 DEBUG [main] o.h.v.i.x.ResourceLoaderHelper [ResourceLoaderHelper.java:47] Trying to load META-INF/validation.xml via user class loader
+2016-05-06 14:16:54,346 DEBUG [main] o.h.v.i.x.ResourceLoaderHelper [ResourceLoaderHelper.java:54] Trying to load META-INF/validation.xml via TCCL
+2016-05-06 14:16:54,346 DEBUG [main] o.h.v.i.x.ResourceLoaderHelper [ResourceLoaderHelper.java:60] Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2016-05-06 14:16:54,347 DEBUG [main] o.h.v.i.x.ValidationXmlParser [ValidationXmlParser.java:98] No META-INF/validation.xml found. Using annotation based configuration only.
+2016-05-06 14:16:54,413 DEBUG [main] o.s.b.f.a.InjectionMetadata [InjectionMetadata.java:86] Processing injected element of bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor': AutowiredMethodElement for public void org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.setGenericConverters(java.util.List)
+2016-05-06 14:16:54,414 DEBUG [main] o.s.b.f.a.InjectionMetadata [InjectionMetadata.java:86] Processing injected element of bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor': AutowiredMethodElement for public void org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.setConverters(java.util.List)
+2016-05-06 14:16:54,416 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [bootstrap] PropertySource with lowest search precedence
+2016-05-06 14:16:54,417 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [commandLineArgs] PropertySource with lowest search precedence
+2016-05-06 14:16:54,417 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-05-06 14:16:54,418 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-05-06 14:16:54,418 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [systemProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,418 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-05-06 14:16:54,419 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [random] PropertySource with lowest search precedence
+2016-05-06 14:16:54,419 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [springCloudClientHostInfo] PropertySource with lowest search precedence
+2016-05-06 14:16:54,420 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [defaultProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,420 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [localProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,478 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'encrypt.CONFIGURATION_PROPERTIES'
+2016-05-06 14:16:54,478 DEBUG [main] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor [AutowiredAnnotationBeanPostProcessor.java:492] Autowiring by type from bean name 'encryptionBootstrapConfiguration' to bean named 'encrypt.CONFIGURATION_PROPERTIES'
+2016-05-06 14:16:54,479 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'encryptionBootstrapConfiguration'
+2016-05-06 14:16:54,479 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'configurationPropertiesRebinderAutoConfiguration'
+2016-05-06 14:16:54,479 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'propertyPlaceholderAutoConfiguration'
+2016-05-06 14:16:54,479 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'propertyPlaceholderAutoConfiguration'
+2016-05-06 14:16:54,480 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'propertyPlaceholderAutoConfiguration' to allow for resolving potential circular references
+2016-05-06 14:16:54,484 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'propertyPlaceholderAutoConfiguration'
+2016-05-06 14:16:54,484 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2016-05-06 14:16:54,484 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2016-05-06 14:16:54,485 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'spring.cloud.config.CONFIGURATION_PROPERTIES'
+2016-05-06 14:16:54,485 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'spring.cloud.config.CONFIGURATION_PROPERTIES'
+2016-05-06 14:16:54,485 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'spring.cloud.config.CONFIGURATION_PROPERTIES' to allow for resolving potential circular references
+2016-05-06 14:16:54,490 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [bootstrap] PropertySource with lowest search precedence
+2016-05-06 14:16:54,491 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [commandLineArgs] PropertySource with lowest search precedence
+2016-05-06 14:16:54,491 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-05-06 14:16:54,491 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-05-06 14:16:54,492 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [systemProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,492 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-05-06 14:16:54,493 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [random] PropertySource with lowest search precedence
+2016-05-06 14:16:54,493 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [springCloudClientHostInfo] PropertySource with lowest search precedence
+2016-05-06 14:16:54,493 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [defaultProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,493 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [localProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,499 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'spring.cloud.config.CONFIGURATION_PROPERTIES'
+2016-05-06 14:16:54,499 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2016-05-06 14:16:54,499 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store'
+2016-05-06 14:16:54,499 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'environmentDecryptApplicationListener'
+2016-05-06 14:16:54,500 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'environmentDecryptApplicationListener'
+2016-05-06 14:16:54,500 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'encryptionBootstrapConfiguration'
+2016-05-06 14:16:54,508 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'environmentDecryptApplicationListener' to allow for resolving potential circular references
+2016-05-06 14:16:54,512 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'environmentDecryptApplicationListener'
+2016-05-06 14:16:54,513 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'encrypt.CONFIGURATION_PROPERTIES'
+2016-05-06 14:16:54,513 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.condition.BeanTypeRegistry'
+2016-05-06 14:16:54,513 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'configurationPropertiesBeans'
+2016-05-06 14:16:54,513 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultSingletonBeanRegistry.java:221] Creating shared instance of singleton bean 'configurationPropertiesRebinder'
+2016-05-06 14:16:54,514 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:448] Creating instance of bean 'configurationPropertiesRebinder'
+2016-05-06 14:16:54,514 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'configurationPropertiesRebinderAutoConfiguration'
+2016-05-06 14:16:54,576 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'configurationPropertiesBeans'
+2016-05-06 14:16:54,576 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2016-05-06 14:16:54,577 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:757] Autowiring by type from bean name 'configurationPropertiesRebinder' via factory method to bean named 'configurationPropertiesBeans'
+2016-05-06 14:16:54,577 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [ConstructorResolver.java:757] Autowiring by type from bean name 'configurationPropertiesRebinder' via factory method to bean named 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2016-05-06 14:16:54,583 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:529] Eagerly caching bean 'configurationPropertiesRebinder' to allow for resolving potential circular references
+2016-05-06 14:16:54,589 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractAutowireCapableBeanFactory.java:484] Finished creating instance of bean 'configurationPropertiesRebinder'
+2016-05-06 14:16:54,590 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'propertySourcesPlaceholderConfigurer'
+2016-05-06 14:16:54,590 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2016-05-06 14:16:54,622 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'configurationPropertiesRebinder'
+2016-05-06 14:16:54,623 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'spring.cloud.config.CONFIGURATION_PROPERTIES'
+2016-05-06 14:16:54,626 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [bootstrap] PropertySource with lowest search precedence
+2016-05-06 14:16:54,627 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [commandLineArgs] PropertySource with lowest search precedence
+2016-05-06 14:16:54,627 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-05-06 14:16:54,628 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-05-06 14:16:54,628 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [systemProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,629 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-05-06 14:16:54,629 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [random] PropertySource with lowest search precedence
+2016-05-06 14:16:54,630 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [springCloudClientHostInfo] PropertySource with lowest search precedence
+2016-05-06 14:16:54,630 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [defaultProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,631 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [localProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,634 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [bootstrap] PropertySource with lowest search precedence
+2016-05-06 14:16:54,634 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [commandLineArgs] PropertySource with lowest search precedence
+2016-05-06 14:16:54,634 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-05-06 14:16:54,635 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-05-06 14:16:54,635 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [systemProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,635 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-05-06 14:16:54,636 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [random] PropertySource with lowest search precedence
+2016-05-06 14:16:54,636 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [springCloudClientHostInfo] PropertySource with lowest search precedence
+2016-05-06 14:16:54,636 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [defaultProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,636 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [localProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,637 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'encrypt.CONFIGURATION_PROPERTIES'
+2016-05-06 14:16:54,639 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [bootstrap] PropertySource with lowest search precedence
+2016-05-06 14:16:54,639 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [commandLineArgs] PropertySource with lowest search precedence
+2016-05-06 14:16:54,639 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-05-06 14:16:54,640 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-05-06 14:16:54,640 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [systemProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,640 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-05-06 14:16:54,640 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [random] PropertySource with lowest search precedence
+2016-05-06 14:16:54,641 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [springCloudClientHostInfo] PropertySource with lowest search precedence
+2016-05-06 14:16:54,641 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [defaultProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,641 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [localProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,643 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [bootstrap] PropertySource with lowest search precedence
+2016-05-06 14:16:54,643 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [commandLineArgs] PropertySource with lowest search precedence
+2016-05-06 14:16:54,644 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-05-06 14:16:54,644 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-05-06 14:16:54,644 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [systemProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,644 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-05-06 14:16:54,645 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [random] PropertySource with lowest search precedence
+2016-05-06 14:16:54,645 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [springCloudClientHostInfo] PropertySource with lowest search precedence
+2016-05-06 14:16:54,645 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [defaultProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,646 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:109] Adding [localProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,648 DEBUG [main] o.s.c.a.AnnotationConfigApplicationContext [AbstractApplicationContext.java:769] Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@479ceda0]
+2016-05-06 14:16:54,649 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'lifecycleProcessor'
+2016-05-06 14:16:54,650 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor'
+2016-05-06 14:16:54,651 DEBUG [main] o.s.b.a.l.AutoConfigurationReportLoggingInitializer [AutoConfigurationReportLoggingInitializer.java:117] 
+
+
+=========================
+AUTO-CONFIGURATION REPORT
+=========================
+
+
+Positive matches:
+-----------------
+
+   ConfigurationPropertiesRebinderAutoConfiguration matched
+      - @ConditionalOnBean (types: org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor; SearchStrategy: all) found the following [org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor] (OnBeanCondition)
+
+   ConfigurationPropertiesRebinderAutoConfiguration#configurationPropertiesBeans matched
+      - @ConditionalOnMissingBean (types: org.springframework.cloud.context.properties.ConfigurationPropertiesBeans; SearchStrategy: current) found no beans (OnBeanCondition)
+
+   ConfigurationPropertiesRebinderAutoConfiguration#configurationPropertiesRebinder matched
+      - @ConditionalOnMissingBean (types: org.springframework.cloud.context.properties.ConfigurationPropertiesRebinder; SearchStrategy: current) found no beans (OnBeanCondition)
+
+   EncryptionBootstrapConfiguration matched
+      - @ConditionalOnClass classes found: org.springframework.security.crypto.encrypt.TextEncryptor (OnClassCondition)
+
+   PropertyPlaceholderAutoConfiguration#propertySourcesPlaceholderConfigurer matched
+      - @ConditionalOnMissingBean (types: org.springframework.context.support.PropertySourcesPlaceholderConfigurer; SearchStrategy: current) found no beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   EncryptionBootstrapConfiguration.RsaEncryptionConfiguration did not match
+      - required @ConditionalOnClass classes not found: org.springframework.security.rsa.crypto.RsaSecretEncryptor (OnClassCondition)
+
+   EncryptionBootstrapConfiguration.VanillaEncryptionConfiguration did not match
+      - @ConditionalOnMissing classes not found: org.springframework.security.rsa.crypto.RsaSecretEncryptor (OnClassCondition)
+      - Keystore nor key found in Environment (EncryptionBootstrapConfiguration.KeyCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2016-05-06 14:16:54,653 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.liveBeansView.mbeanDomain' in [bootstrap]
+2016-05-06 14:16:54,653 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.liveBeansView.mbeanDomain' in [commandLineArgs]
+2016-05-06 14:16:54,654 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
+2016-05-06 14:16:54,654 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
+2016-05-06 14:16:54,654 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2016-05-06 14:16:54,654 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:90] Found key 'spring.liveBeansView.mbeanDomain' in [systemProperties] with type [String] and value ''
+2016-05-06 14:16:54,661 DEBUG [main] o.s.c.e.StandardEnvironment [MutablePropertySources.java:159] Removing [bootstrap] PropertySource
+2016-05-06 14:16:54,662 DEBUG [main] o.s.w.c.s.StandardServletEnvironment [MutablePropertySources.java:109] Adding [defaultProperties] PropertySource with lowest search precedence
+2016-05-06 14:16:54,662 DEBUG [main] o.s.c.e.StandardEnvironment [MutablePropertySources.java:159] Removing [springCloudClientHostInfo] PropertySource
+2016-05-06 14:16:54,663 DEBUG [main] o.s.w.c.s.StandardServletEnvironment [MutablePropertySources.java:174] Replacing [defaultProperties] PropertySource with [defaultProperties]
+2016-05-06 14:16:54,663 DEBUG [main] o.s.c.e.StandardEnvironment [MutablePropertySources.java:174] Replacing [defaultProperties] PropertySource with [defaultProperties]
+2016-05-06 14:16:54,663 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'propertySourceBootstrapConfiguration'
+2016-05-06 14:16:54,664 DEBUG [main] o.s.b.f.s.DefaultListableBeanFactory [AbstractBeanFactory.java:251] Returning cached instance of singleton bean 'environmentDecryptApplicationListener'
+2016-05-06 14:16:54,669 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'SPRING_APPLICATION_JSON:' in [commandLineArgs]
+2016-05-06 14:16:54,669 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'SPRING_APPLICATION_JSON:' in [servletConfigInitParams]
+2016-05-06 14:16:54,670 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'SPRING_APPLICATION_JSON:' in [servletContextInitParams]
+2016-05-06 14:16:54,670 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'SPRING_APPLICATION_JSON:' in [systemProperties]
+2016-05-06 14:16:54,670 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'SPRING_APPLICATION_JSON:' in [systemEnvironment]
+2016-05-06 14:16:54,670 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'SPRING_APPLICATION_JSON:' in [defaultProperties]
+2016-05-06 14:16:54,671 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'SPRING_APPLICATION_JSON:' in any property source. Returning [null]
+2016-05-06 14:16:54,671 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'SPRING_APPLICATION_JSON' in [commandLineArgs]
+2016-05-06 14:16:54,671 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'SPRING_APPLICATION_JSON' in [servletConfigInitParams]
+2016-05-06 14:16:54,671 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'SPRING_APPLICATION_JSON' in [servletContextInitParams]
+2016-05-06 14:16:54,671 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'SPRING_APPLICATION_JSON' in [systemProperties]
+2016-05-06 14:16:54,672 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'SPRING_APPLICATION_JSON' in [systemEnvironment]
+2016-05-06 14:16:54,672 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'SPRING_APPLICATION_JSON' in [defaultProperties]
+2016-05-06 14:16:54,672 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'SPRING_APPLICATION_JSON' in any property source. Returning [null]
+2016-05-06 14:16:54,672 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.json:' in [commandLineArgs]
+2016-05-06 14:16:54,672 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.json:' in [servletConfigInitParams]
+2016-05-06 14:16:54,673 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.json:' in [servletContextInitParams]
+2016-05-06 14:16:54,673 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.json:' in [systemProperties]
+2016-05-06 14:16:54,673 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.json:' in [systemEnvironment]
+2016-05-06 14:16:54,673 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.json:' in [defaultProperties]
+2016-05-06 14:16:54,673 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'spring.application.json:' in any property source. Returning [null]
+2016-05-06 14:16:54,674 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.json' in [commandLineArgs]
+2016-05-06 14:16:54,674 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.json' in [servletConfigInitParams]
+2016-05-06 14:16:54,674 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.json' in [servletContextInitParams]
+2016-05-06 14:16:54,674 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.json' in [systemProperties]
+2016-05-06 14:16:54,674 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.json' in [systemEnvironment]
+2016-05-06 14:16:54,675 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.application.json' in [defaultProperties]
+2016-05-06 14:16:54,675 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'spring.application.json' in any property source. Returning [null]
+2016-05-06 14:16:56,158 INFO [main] o.s.c.c.u.InetUtils [InetUtils.java:154] Cannot determine local hostname
+2016-05-06 14:16:56,158 DEBUG [main] o.s.w.c.s.StandardServletEnvironment [MutablePropertySources.java:109] Adding [springCloudClientHostInfo] PropertySource with lowest search precedence
+2016-05-06 14:16:56,159 DEBUG [main] o.s.w.c.s.StandardServletEnvironment [MutablePropertySources.java:137] Adding [random] PropertySource with search precedence immediately lower than [systemEnvironment]
+2016-05-06 14:16:56,164 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.active' in [commandLineArgs]
+2016-05-06 14:16:56,164 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.active' in [servletConfigInitParams]
+2016-05-06 14:16:56,165 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.active' in [servletContextInitParams]
+2016-05-06 14:16:56,165 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.active' in [systemProperties]
+2016-05-06 14:16:56,165 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.active' in [systemEnvironment]
+2016-05-06 14:16:56,165 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.active' in [random]
+2016-05-06 14:16:56,165 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.active' in [defaultProperties]
+2016-05-06 14:16:56,165 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.active' in [springCloudClientHostInfo]
+2016-05-06 14:16:56,166 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'spring.profiles.active' in any property source. Returning [null]
+2016-05-06 14:16:56,166 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.default' in [commandLineArgs]
+2016-05-06 14:16:56,166 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.default' in [servletConfigInitParams]
+2016-05-06 14:16:56,166 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.default' in [servletContextInitParams]
+2016-05-06 14:16:56,166 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.default' in [systemProperties]
+2016-05-06 14:16:56,166 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.default' in [systemEnvironment]
+2016-05-06 14:16:56,167 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.default' in [random]
+2016-05-06 14:16:56,167 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.default' in [defaultProperties]
+2016-05-06 14:16:56,167 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.profiles.default' in [springCloudClientHostInfo]
+2016-05-06 14:16:56,167 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'spring.profiles.default' in any property source. Returning [null]
+2016-05-06 14:16:56,173 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:97] Adding [applicationConfig: [profile=]] PropertySource with highest search precedence
+2016-05-06 14:16:56,219 DEBUG [main] o.s.b.e.YamlPropertySourceLoader$Processor [YamlProcessor.java:154] Loading from YAML: class path resource [application.yml]
+2016-05-06 14:16:56,260 DEBUG [main] o.s.b.e.YamlPropertySourceLoader$Processor [YamlProcessor.java:246] Matched document with default matcher: {logging={level={ROOT=INFO, org.springframework.web=INFO}}, server={address=192.168.56.1, port=9898}, spring={application={name=party-management-webservice}, cloud={consul={host=192.168.33.50, enabled=true, port=8500, discovery={enabled=true, register=true, hostname=192.168.56.1}}}}}
+2016-05-06 14:16:56,261 DEBUG [main] o.s.b.e.YamlPropertySourceLoader$Processor [YamlProcessor.java:167] Loaded 1 document from YAML resource: class path resource [application.yml]
+2016-05-06 14:16:56,262 DEBUG [main] o.s.c.e.MutablePropertySources [MutablePropertySources.java:174] Replacing [applicationConfig: [profile=]] PropertySource with [applicationConfig: [profile=]]
+2016-05-06 14:16:56,275 DEBUG [main] o.s.b.e.YamlPropertySourceLoader$Processor [YamlProcessor.java:154] Loading from YAML: class path resource [application.yml]
+2016-05-06 14:16:56,279 DEBUG [main] o.s.b.e.YamlPropertySourceLoader$Processor [YamlProcessor.java:253] Unmatched document: {logging={level={ROOT=INFO, org.springframework.web=INFO}}, server={address=192.168.56.1, port=9898}, spring={application={name=party-management-webservice}, cloud={consul={host=192.168.33.50, enabled=true, port=8500, discovery={enabled=true, register=true, hostname=192.168.56.1}}}}}
+2016-05-06 14:16:56,280 DEBUG [main] o.s.b.e.YamlPropertySourceLoader$Processor [YamlProcessor.java:167] Loaded 0 document from YAML resource: class path resource [application.yml]
+2016-05-06 14:16:56,282 DEBUG [main] o.s.w.c.s.StandardServletEnvironment [MutablePropertySources.java:122] Adding [applicationConfigurationProperties] PropertySource with search precedence immediately higher than [defaultProperties]
+2016-05-06 14:16:56,301 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'spring.output.ansi.enabled' in [commandLineArgs]
+2016-05-06 14:16:56,302 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:90] Found key 'spring.output.ansi.enabled' in [commandLineArgs] with type [String] and value 'always'
+2016-05-06 14:16:56,304 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.file' in [commandLineArgs]
+2016-05-06 14:16:56,304 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.file' in [servletConfigInitParams]
+2016-05-06 14:16:56,304 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.file' in [servletContextInitParams]
+2016-05-06 14:16:56,305 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.file' in [systemProperties]
+2016-05-06 14:16:56,305 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.file' in [systemEnvironment]
+2016-05-06 14:16:56,305 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.file' in [random]
+2016-05-06 14:16:56,305 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.file' in [applicationConfigurationProperties]
+2016-05-06 14:16:56,305 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.file' in [defaultProperties]
+2016-05-06 14:16:56,306 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.file' in [springCloudClientHostInfo]
+2016-05-06 14:16:56,306 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'logging.file' in any property source. Returning [null]
+2016-05-06 14:16:56,306 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.path' in [commandLineArgs]
+2016-05-06 14:16:56,306 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.path' in [servletConfigInitParams]
+2016-05-06 14:16:56,306 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.path' in [servletContextInitParams]
+2016-05-06 14:16:56,307 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.path' in [systemProperties]
+2016-05-06 14:16:56,307 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.path' in [systemEnvironment]
+2016-05-06 14:16:56,307 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.path' in [random]
+2016-05-06 14:16:56,307 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.path' in [applicationConfigurationProperties]
+2016-05-06 14:16:56,307 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.path' in [defaultProperties]
+2016-05-06 14:16:56,308 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.path' in [springCloudClientHostInfo]
+2016-05-06 14:16:56,308 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'logging.path' in any property source. Returning [null]
+2016-05-06 14:16:56,311 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.config' in [commandLineArgs]
+2016-05-06 14:16:56,312 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.config' in [servletConfigInitParams]
+2016-05-06 14:16:56,312 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.config' in [servletContextInitParams]
+2016-05-06 14:16:56,312 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.config' in [systemProperties]
+2016-05-06 14:16:56,312 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.config' in [systemEnvironment]
+2016-05-06 14:16:56,312 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.config' in [random]
+2016-05-06 14:16:56,313 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.config' in [applicationConfigurationProperties]
+2016-05-06 14:16:56,313 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.config' in [defaultProperties]
+2016-05-06 14:16:56,313 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:81] Searching for key 'logging.config' in [springCloudClientHostInfo]
+2016-05-06 14:16:56,313 DEBUG [main] o.s.c.e.PropertySourcesPropertyResolver [PropertySourcesPropertyResolver.java:103] Could not find key 'logging.config' in any property source. Returning [null]
+2016-05-06 14:16:56,358 INFO [main] a.c.e.c.s.p.PartyManagementWebserviceApplication [SpringApplication.java:666] No active profile set, falling back to default profiles: default
+2016-05-06 14:16:56,380 INFO [main] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:578] Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ad3381f: startup date [Fri May 06 14:16:56 GST 2016]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@55b699ef
+2016-05-06 14:16:57,580 INFO [main] o.s.b.f.s.DefaultListableBeanFactory [DefaultListableBeanFactory.java:839] Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-05-06 14:16:58,089 INFO [main] o.s.c.c.s.GenericScope [GenericScope.java:263] BeanFactory id=a2a97523-a2ae-380e-81a4-0320e65bc194
+2016-05-06 14:16:58,124 INFO [main] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor [AutowiredAnnotationBeanPostProcessor.java:153] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2016-05-06 14:16:58,159 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:328] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$e38be236] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-05-06 14:16:58,172 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:328] Bean 'org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration$$EnhancerBySpringCGLIB$$1669dd6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-05-06 14:16:58,615 INFO [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:81] Tomcat initialized with port(s): 9898 (http)
+2016-05-06 14:16:58,639 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:180] Starting service Tomcat
+2016-05-06 14:16:58,641 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:180] Starting Servlet Engine: Apache Tomcat/8.0.32
+2016-05-06 14:16:58,826 INFO [localhost-startStop-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:180] Initializing Spring embedded WebApplicationContext
+2016-05-06 14:16:58,826 INFO [localhost-startStop-1] o.s.w.c.ContextLoader [EmbeddedWebApplicationContext.java:272] Root WebApplicationContext: initialization completed in 2446 ms
+2016-05-06 14:16:59,456 INFO [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean [ServletRegistrationBean.java:189] Mapping servlet: 'dispatcherServlet' to [/]
+2016-05-06 14:16:59,466 INFO [localhost-startStop-1] o.s.b.c.e.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'metricFilter' to: [/*]
+2016-05-06 14:16:59,467 INFO [localhost-startStop-1] o.s.b.c.e.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-05-06 14:16:59,468 INFO [localhost-startStop-1] o.s.b.c.e.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-05-06 14:16:59,468 INFO [localhost-startStop-1] o.s.b.c.e.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-05-06 14:16:59,469 INFO [localhost-startStop-1] o.s.b.c.e.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'requestContextFilter' to: [/*]
+2016-05-06 14:16:59,469 INFO [localhost-startStop-1] o.s.b.c.e.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2016-05-06 14:16:59,470 INFO [localhost-startStop-1] o.s.b.c.e.FilterRegistrationBean [AbstractFilterRegistrationBean.java:258] Mapping filter: 'applicationContextIdFilter' to: [/*]
+2016-05-06 14:17:01,615 INFO [main] o.s.c.c.u.InetUtils [InetUtils.java:154] Cannot determine local hostname
+2016-05-06 14:17:02,116 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerAdapter [RequestMappingHandlerAdapter.java:532] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ad3381f: startup date [Fri May 06 14:16:56 GST 2016]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@55b699ef
+2016-05-06 14:17:02,287 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/hello-world],methods=[GET],produces=[application/json]}" onto public java.lang.String ae.co.etisalat.cbcm.services.parymanagement.FilteredRestWs.index(java.lang.String)
+2016-05-06 14:17:02,292 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-05-06 14:17:02,293 INFO [main] o.s.w.s.m.m.a.RequestMappingHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-05-06 14:17:02,348 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:341] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-06 14:17:02,349 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:341] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-06 14:17:02,420 INFO [main] o.s.w.s.h.SimpleUrlHandlerMapping [AbstractUrlHandlerMapping.java:341] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-05-06 14:17:03,475 INFO [main] o.s.b.a.e.m.EndpointHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2016-05-06 14:17:03,477 INFO [main] o.s.b.a.e.m.EndpointHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-05-06 14:17:03,479 INFO [main] o.s.b.a.e.m.EndpointHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2016-05-06 14:17:03,484 INFO [main] o.s.b.a.e.m.EndpointHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2016-05-06 14:17:03,485 INFO [main] o.s.b.a.e.m.EndpointHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-05-06 14:17:03,487 INFO [main] o.s.b.a.e.m.EndpointHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2016-05-06 14:17:03,487 INFO [main] o.s.b.a.e.m.EndpointHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-05-06 14:17:03,489 INFO [main] o.s.b.a.e.m.EndpointHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2016-05-06 14:17:03,490 INFO [main] o.s.b.a.e.m.EndpointHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-05-06 14:17:03,491 INFO [main] o.s.b.a.e.m.EndpointHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-05-06 14:17:03,492 INFO [main] o.s.b.a.e.m.EndpointHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-05-06 14:17:03,494 INFO [main] o.s.b.a.e.m.EndpointHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2016-05-06 14:17:03,495 INFO [main] o.s.b.a.e.m.EndpointHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-05-06 14:17:03,497 INFO [main] o.s.b.a.e.m.EndpointHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2016-05-06 14:17:03,498 INFO [main] o.s.b.a.e.m.EndpointHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-05-06 14:17:03,499 INFO [main] o.s.b.a.e.m.EndpointHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-05-06 14:17:03,500 INFO [main] o.s.b.a.e.m.EndpointHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-05-06 14:17:03,502 INFO [main] o.s.b.a.e.m.EndpointHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/features || /features.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-05-06 14:17:03,503 INFO [main] o.s.b.a.e.m.EndpointHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2016-05-06 14:17:03,503 INFO [main] o.s.b.a.e.m.EndpointHandlerMapping [AbstractHandlerMethodMapping.java:534] Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2016-05-06 14:17:03,698 WARN [main] c.n.c.s.URLConfigurationSource [URLConfigurationSource.java:121] No URLs will be polled as dynamic configuration sources.
+2016-05-06 14:17:03,698 INFO [main] c.n.c.s.URLConfigurationSource [URLConfigurationSource.java:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2016-05-06 14:17:03,708 WARN [main] c.n.c.s.URLConfigurationSource [URLConfigurationSource.java:121] No URLs will be polled as dynamic configuration sources.
+2016-05-06 14:17:03,708 INFO [main] c.n.c.s.URLConfigurationSource [URLConfigurationSource.java:122] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2016-05-06 14:17:03,832 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:431] Registering beans for JMX exposure on startup
+2016-05-06 14:17:03,852 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:912] Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2016-05-06 14:17:03,854 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:912] Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2016-05-06 14:17:03,856 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:912] Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2016-05-06 14:17:03,858 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:912] Bean with name 'refreshScope' has been autodetected for JMX exposure
+2016-05-06 14:17:03,860 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:912] Bean with name 'environmentManager' has been autodetected for JMX exposure
+2016-05-06 14:17:03,865 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:674] Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2016-05-06 14:17:03,892 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:674] Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2016-05-06 14:17:03,914 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:674] Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2016-05-06 14:17:03,924 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:674] Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=6ad3381f,type=ConfigurationPropertiesRebinder]
+2016-05-06 14:17:03,937 INFO [main] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:674] Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2016-05-06 14:17:03,940 INFO [main] o.s.b.a.e.j.EndpointMBeanExporter [MBeanExporter.java:431] Registering beans for JMX exposure on startup
+2016-05-06 14:17:04,186 INFO [main] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:341] Starting beans in phase 0
+2016-05-06 14:17:04,189 INFO [main] o.s.b.a.e.j.EndpointMBeanExporter [MBeanExporter.java:674] Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+2016-05-06 14:17:04,205 INFO [main] o.s.b.a.e.j.EndpointMBeanExporter [MBeanExporter.java:674] Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2016-05-06 14:17:04,212 INFO [main] o.s.b.a.e.j.EndpointMBeanExporter [MBeanExporter.java:674] Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2016-05-06 14:17:04,217 INFO [main] o.s.b.a.e.j.EndpointMBeanExporter [MBeanExporter.java:674] Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2016-05-06 14:17:04,222 INFO [main] o.s.b.a.e.j.EndpointMBeanExporter [MBeanExporter.java:674] Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2016-05-06 14:17:04,230 INFO [main] o.s.b.a.e.j.EndpointMBeanExporter [MBeanExporter.java:674] Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2016-05-06 14:17:04,237 INFO [main] o.s.b.a.e.j.EndpointMBeanExporter [MBeanExporter.java:674] Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2016-05-06 14:17:04,244 INFO [main] o.s.b.a.e.j.EndpointMBeanExporter [MBeanExporter.java:674] Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2016-05-06 14:17:04,250 INFO [main] o.s.b.a.e.j.EndpointMBeanExporter [MBeanExporter.java:674] Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2016-05-06 14:17:04,256 INFO [main] o.s.b.a.e.j.EndpointMBeanExporter [MBeanExporter.java:674] Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2016-05-06 14:17:04,261 INFO [main] o.s.b.a.e.j.EndpointMBeanExporter [MBeanExporter.java:674] Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2016-05-06 14:17:04,267 INFO [main] o.s.b.a.e.j.EndpointMBeanExporter [MBeanExporter.java:674] Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+2016-05-06 14:17:04,352 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:180] Initializing ProtocolHandler ["http-nio-192.168.56.1-9898"]
+2016-05-06 14:17:04,364 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:180] Starting ProtocolHandler ["http-nio-192.168.56.1-9898"]
+2016-05-06 14:17:04,406 INFO [main] o.a.t.u.n.NioSelectorPool [DirectJDKLog.java:180] Using a shared selector for servlet write/read
+2016-05-06 14:17:04,458 INFO [main] o.s.b.c.e.t.TomcatEmbeddedServletContainer [TomcatEmbeddedServletContainer.java:162] Tomcat started on port(s): 9898 (http)
+2016-05-06 14:17:04,463 INFO [main] o.s.c.c.d.ConsulLifecycle [ConsulLifecycle.java:156] Registering service with consul: NewService{id='party-management-webservice-9898', name='party-management-webservice', tags=[], address='192.168.56.1', port=9898, check=Check{script='null', interval=10s, ttl=null, http=http://192.168.56.1:9898/health, timeout=null}}
+2016-05-06 14:17:04,548 INFO [main] a.c.e.c.s.p.PartyManagementWebserviceApplication [StartupInfoLogger.java:57] Started PartyManagementWebserviceApplication in 13.066 seconds (JVM running for 14.38)
+2016-05-06 14:17:07,727 INFO [http-nio-192.168.56.1-9898-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:180] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-05-06 14:17:07,727 INFO [http-nio-192.168.56.1-9898-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:488] FrameworkServlet 'dispatcherServlet': initialization started
+2016-05-06 14:17:07,749 INFO [http-nio-192.168.56.1-9898-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:507] FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2016-05-06 14:48:11,482 INFO [pool-1-thread-1] o.a.h.i.c.DefaultHttpClient [DefaultRequestDirector.java:696] I/O exception (java.net.SocketException) caught when processing request to {}->http://192.168.33.50:8500: Connection reset
+2016-05-06 14:48:11,486 INFO [pool-1-thread-1] o.a.h.i.c.DefaultHttpClient [DefaultRequestDirector.java:706] Retrying request to {}->http://192.168.33.50:8500
+2016-05-06 14:48:11,488 INFO [pool-1-thread-1] o.a.h.i.c.DefaultHttpClient [DefaultRequestDirector.java:696] I/O exception (java.net.SocketException) caught when processing request to {}->http://192.168.33.50:8500: Connection reset
+2016-05-06 14:48:11,489 INFO [pool-1-thread-1] o.a.h.i.c.DefaultHttpClient [DefaultRequestDirector.java:706] Retrying request to {}->http://192.168.33.50:8500
+2016-05-06 14:48:11,491 INFO [pool-1-thread-1] o.a.h.i.c.DefaultHttpClient [DefaultRequestDirector.java:696] I/O exception (java.net.SocketException) caught when processing request to {}->http://192.168.33.50:8500: Connection reset
+2016-05-06 14:48:11,492 INFO [pool-1-thread-1] o.a.h.i.c.DefaultHttpClient [DefaultRequestDirector.java:706] Retrying request to {}->http://192.168.33.50:8500
+2016-05-06 14:48:11,499 ERROR [pool-1-thread-1] o.s.c.c.d.ConsulCatalogWatch [ConsulCatalogWatch.java:77] Error watching Consul CatalogServices
+com.ecwid.consul.transport.TransportException: java.net.SocketException: Connection reset
+	at com.ecwid.consul.transport.AbstractHttpTransport.executeRequest(AbstractHttpTransport.java:80)
+	at com.ecwid.consul.transport.AbstractHttpTransport.makeGetRequest(AbstractHttpTransport.java:39)
+	at com.ecwid.consul.v1.ConsulRawClient.makeGetRequest(ConsulRawClient.java:81)
+	at com.ecwid.consul.v1.catalog.CatalogConsulClient.getCatalogServices(CatalogConsulClient.java:108)
+	at com.ecwid.consul.v1.ConsulClient.getCatalogServices(ConsulClient.java:279)
+	at org.springframework.cloud.consul.discovery.ConsulCatalogWatch.catalogServicesWatch(ConsulCatalogWatch.java:65)
+	at sun.reflect.GeneratedMethodAccessor78.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:65)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:197)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:882)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:220)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:164)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:139)
+	at com.ecwid.consul.transport.AbstractHttpTransport.executeRequest(AbstractHttpTransport.java:64)
+	... 17 common frames omitted
+2016-05-06 14:48:36,369 INFO [http-nio-192.168.56.1-9898-exec-1] o.a.h.i.c.DefaultHttpClient [DefaultRequestDirector.java:696] I/O exception (java.net.SocketException) caught when processing request to {}->http://192.168.33.50:8500: Software caused connection abort: recv failed
+2016-05-06 14:48:36,370 INFO [http-nio-192.168.56.1-9898-exec-1] o.a.h.i.c.DefaultHttpClient [DefaultRequestDirector.java:706] Retrying request to {}->http://192.168.33.50:8500
+2016-05-06 14:48:36,373 INFO [http-nio-192.168.56.1-9898-exec-1] o.a.h.i.c.DefaultHttpClient [DefaultRequestDirector.java:696] I/O exception (java.net.SocketException) caught when processing request to {}->http://192.168.33.50:8500: Connection reset
+2016-05-06 14:48:36,374 INFO [http-nio-192.168.56.1-9898-exec-1] o.a.h.i.c.DefaultHttpClient [DefaultRequestDirector.java:706] Retrying request to {}->http://192.168.33.50:8500
+2016-05-06 14:48:36,377 INFO [http-nio-192.168.56.1-9898-exec-1] o.a.h.i.c.DefaultHttpClient [DefaultRequestDirector.java:696] I/O exception (java.net.SocketException) caught when processing request to {}->http://192.168.33.50:8500: Connection reset
+2016-05-06 14:48:36,377 INFO [http-nio-192.168.56.1-9898-exec-1] o.a.h.i.c.DefaultHttpClient [DefaultRequestDirector.java:706] Retrying request to {}->http://192.168.33.50:8500
+2016-05-06 14:48:36,381 ERROR [http-nio-192.168.56.1-9898-exec-1] o.s.c.c.d.h.DiscoveryClientHealthIndicator [DiscoveryClientHealthIndicator.java:66] Error
+com.ecwid.consul.transport.TransportException: java.net.SocketException: Connection reset
+	at com.ecwid.consul.transport.AbstractHttpTransport.executeRequest(AbstractHttpTransport.java:80)
+	at com.ecwid.consul.transport.AbstractHttpTransport.makeGetRequest(AbstractHttpTransport.java:39)
+	at com.ecwid.consul.v1.ConsulRawClient.makeGetRequest(ConsulRawClient.java:81)
+	at com.ecwid.consul.v1.catalog.CatalogConsulClient.getCatalogServices(CatalogConsulClient.java:108)
+	at com.ecwid.consul.v1.ConsulClient.getCatalogServices(ConsulClient.java:279)
+	at org.springframework.cloud.consul.discovery.ConsulDiscoveryClient.getServices(ConsulDiscoveryClient.java:150)
+	at org.springframework.cloud.client.discovery.health.DiscoveryClientHealthIndicator.health(DiscoveryClientHealthIndicator.java:61)
+	at org.springframework.cloud.client.discovery.health.DiscoveryCompositeHealthIndicator$Holder.health(DiscoveryCompositeHealthIndicator.java:62)
+	at org.springframework.boot.actuate.health.CompositeHealthIndicator.health(CompositeHealthIndicator.java:68)
+	at org.springframework.boot.actuate.health.CompositeHealthIndicator.health(CompositeHealthIndicator.java:68)
+	at org.springframework.boot.actuate.endpoint.HealthEndpoint.invoke(HealthEndpoint.java:81)
+	at org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.getHealth(HealthMvcEndpoint.java:162)
+	at org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(HealthMvcEndpoint.java:136)
+	at sun.reflect.GeneratedMethodAccessor77.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:817)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:731)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:968)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:859)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:844)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration$ApplicationContextHeaderFilter.doFilterInternal(EndpointWebMvcAutoConfiguration.java:237)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:112)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:87)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:121)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:103)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:197)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:882)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:220)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:164)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:139)
+	at com.ecwid.consul.transport.AbstractHttpTransport.executeRequest(AbstractHttpTransport.java:64)
+	... 76 common frames omitted
+2016-05-06 14:50:19,995 INFO [RMI TCP Connection(2)-169.254.11.239] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [SpringApplicationAdminMXBeanRegistrar.java:122] Application shutdown requested.
+2016-05-06 14:50:19,997 INFO [RMI TCP Connection(2)-169.254.11.239] o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext [AbstractApplicationContext.java:960] Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ad3381f: startup date [Fri May 06 14:16:56 GST 2016]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@55b699ef
+2016-05-06 14:50:20,022 INFO [RMI TCP Connection(2)-169.254.11.239] o.s.c.s.DefaultLifecycleProcessor [DefaultLifecycleProcessor.java:356] Stopping beans in phase 0
+2016-05-06 14:50:20,090 INFO [RMI TCP Connection(2)-169.254.11.239] o.s.b.a.e.j.EndpointMBeanExporter [MBeanExporter.java:449] Unregistering JMX-exposed beans on shutdown
+2016-05-06 14:50:20,091 INFO [RMI TCP Connection(2)-169.254.11.239] o.s.b.a.e.j.EndpointMBeanExporter [MBeanRegistrationSupport.java:241] Unregistering JMX-exposed beans
+2016-05-06 14:50:20,095 INFO [RMI TCP Connection(2)-169.254.11.239] o.s.j.e.a.AnnotationMBeanExporter [MBeanExporter.java:449] Unregistering JMX-exposed beans on shutdown
+2016-05-06 14:50:20,096 INFO [RMI TCP Connection(2)-169.254.11.239] o.s.j.e.a.AnnotationMBeanExporter [MBeanRegistrationSupport.java:241] Unregistering JMX-exposed beans
+2016-05-06 14:50:20,107 INFO [RMI TCP Connection(2)-169.254.11.239] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:180] Pausing ProtocolHandler ["http-nio-192.168.56.1-9898"]
+2016-05-06 14:50:20,160 INFO [RMI TCP Connection(2)-169.254.11.239] o.a.c.c.StandardService [DirectJDKLog.java:180] Stopping service Tomcat
+2016-05-06 14:50:20,168 INFO [localhost-startStop-2] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:180] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2016-05-06 14:50:20,182 INFO [RMI TCP Connection(2)-169.254.11.239] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:180] Stopping ProtocolHandler ["http-nio-192.168.56.1-9898"]
+2016-05-06 14:50:20,191 INFO [RMI TCP Connection(2)-169.254.11.239] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:180] Destroying ProtocolHandler ["http-nio-192.168.56.1-9898"]
