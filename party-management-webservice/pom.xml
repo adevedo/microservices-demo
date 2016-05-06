@@ -72,10 +72,10 @@
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>0.4.9</version>
 				<configuration>
-					<imageName>${docker.image.prefix}/${project.artifactId}</imageName>
+					<imageName>192.168.33.50:5000/${project.artifactId}:${project.version}</imageName>
 					<dockerDirectory>src/main/docker</dockerDirectory>
-					<serverId>docker-hub</serverId>
-					<registryUrl>https://index.docker.io/v1/</registryUrl>
+					<!-- <serverId>docker-hub</serverId> -->
+					<registryUrl>http://192.168.33.50:5000/v1/</registryUrl>
 					<resources>
 						<resource>
 							<targetPath>/</targetPath>
