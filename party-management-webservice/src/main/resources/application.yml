@@ -3,7 +3,6 @@ logging:
     ROOT: INFO
     org.springframework.web: INFO
 server:
-  address: 192.168.56.1
   port: 9898
 spring:
   application:
@@ -16,4 +15,3 @@ spring:
       discovery:
         enabled: true
         register: true
-        hostname: 192.168.56.1
