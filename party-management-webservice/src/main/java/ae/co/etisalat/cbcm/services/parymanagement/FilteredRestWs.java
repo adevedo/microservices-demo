@@ -11,7 +11,7 @@ public class FilteredRestWs {
 
 	@RequestMapping(value = "/hello-world", method = RequestMethod.GET, produces = "application/json")
 	public @ResponseBody String index(@RequestParam(value = "fields", required = false) String fields) {
-		return "Hi";
+		return "Hello World";
 	}
 
 }
