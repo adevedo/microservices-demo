@@ -3,6 +3,7 @@ logging:
     ROOT: DEBUG
     org.springframework.web: DEBUG
 server:
+  address: ${HOST}
   port: 9898
 spring:
   application:
