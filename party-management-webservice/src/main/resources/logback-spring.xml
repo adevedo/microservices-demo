@@ -12,11 +12,11 @@
 				%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n
 			</Pattern>
 		</layout>
-		<filter class="ch.qos.logback.classic.filter.LevelFilter">
+		<!-- <filter class="ch.qos.logback.classic.filter.LevelFilter">
             <level>INFO</level>
             <onMatch>ACCEPT</onMatch>
             <onMismatch>DENY</onMismatch>
-        </filter>
+        </filter> -->
 	</appender>
 	<root level="debug">
 		<appender-ref ref="FILE" />
