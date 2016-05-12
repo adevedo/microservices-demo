@@ -4,6 +4,7 @@ logging:
     org.springframework.web: INFO
 server:
   port: 9898
+  address: 192.168.33.50
 spring:
   application:
     name: party-management-webservice
