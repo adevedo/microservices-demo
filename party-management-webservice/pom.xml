@@ -114,5 +114,14 @@
 			<url>https://repository-master.mulesoft.org/nexus/content/groups/public/</url>
 		</repository>
 	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>central</id>
+			<url>https://repository-master.mulesoft.org/nexus/content/groups/public/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</pluginRepository>
+	</pluginRepositories>
 
 </project>
