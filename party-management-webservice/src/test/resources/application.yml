@@ -1,0 +1,17 @@
+logging:
+  level:
+    ROOT: DEBUG
+    org.springframework.web: DEBUG
+server:
+  port: 9898
+spring:
+  application:
+    name: party-management-webservice
+  cloud:
+    consul:
+      host: 192.168.33.50
+      enabled: true
+      port: 8500
+      discovery:
+        enabled: true
+        register: true
