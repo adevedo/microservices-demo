@@ -3,7 +3,7 @@ logging:
     ROOT: DEBUG
     org.springframework.web: DEBUG
 server:
-  port: 0
+  port: ${PORT0}
 spring:
   application:
     name: party-management-webservice
