@@ -1,16 +1,19 @@
 logging:
   level:
-    ROOT: DEBUG
-    org.springframework.web: DEBUG
+    ROOT: INFO
+    org.springframework.web: INFO
 server:
-  port: ${PORT0}
+  port: 8989
+  address: ${HOST}
 spring:
   application:
     name: party-management-webservice
   cloud:
     consul:
+      host: ${HOST}
       enabled: true
       port: 8500
       discovery:
         enabled: true
         register: true
+        hostname: ${HOST}
